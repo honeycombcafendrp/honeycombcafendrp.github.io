@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="assets/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/contactus.css">
+    <script defer src="assets/scripts/app.js"></script>
+    <script defer src="assets/scripts/webhook.js"></script>
+</head>
+
+<body>
+    <div class="headergap"></div>
+    <!--NAVIGATION-->
+    <button id="burger" class="open-main-nav">
+        <span class="burger"></span>
+        <span class="burger-text"><p>Menu</p></span>
+    </button>
+    <nav class="main-nav" id="main-nav">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="collabform">
+        <form onsubmit="sendform(event)">
+              <label for="Collaboration1" class="form-label">What is your name?</label>
+              <textarea required class="form-control" id="Question1"></textarea>
+              <br>
+              <label for="Collaboration1" class="form-label">What is your phone number?</label>
+              <textarea required class="form-control" id="Question2"></textarea>
+              <br>
+              <label for="Collaboration1" class="form-label">What are you reaching out about?</label>
+              <textarea required class="form-control" id="Question3"></textarea>
+              <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+</body>
+</html>

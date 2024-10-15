@@ -1,0 +1,60 @@
+/*
+Yellow - #fad725
+Darker Pink - #efacb5
+Blueish? - #8cd6e8
+*/
+
+
+h1{
+    font-family: Calling-Heart;
+    text-shadow: black 1px 1px 1px;
+    font-size: 60px;
+}
+
+.bodyblur{
+    backdrop-filter: blur(2px);
+}
+
+.intro{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.intrologo{
+    width: 275px;
+    filter: drop-shadow(black 1px 1px 2px);
+}
+
+#cafe{
+    margin: none;
+    font-family: Crayon;
+}
+
+.introtext{
+    color: white;
+}
+
+.hexagon {
+    margin: auto;
+    height: 150px; /* adjust to control the size  */
+    aspect-ratio: 1/cos(30deg);
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+    background: url(/assets/img/oofie2.png);
+    background-size: cover;
+    background-position: center;
+    margin: 2%;
+    float: left;
+    shape-outside: circle(50%);
+}
+
+.hextext{
+    max-width: 90%;
+    text-align: center;
+    p{font-family: Crayon; font-size: 22px;color: white;}
+    filter: drop-shadow(black 0px 0px 5px);
+}
+
+.andright{
+    float: right;
+}
