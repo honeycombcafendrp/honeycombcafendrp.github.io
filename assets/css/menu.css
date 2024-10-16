@@ -136,10 +136,10 @@
   .actualmenucard{
       padding: 0px;
       position: fixed;
-      right: -2%;
+      right: 1%;
       top: 33%;
       text-align: center;
-      width: 100%;
+      width:95%;
       z-index: 999999;
       padding: 1%;
       color: white;
@@ -156,6 +156,7 @@
     transform: scale(1.8) !important;
     animation: slide-up 0.5s !important;
     filter: drop-shadow(black 1px 1px 25px);
+    filter: blur(2px);
   }
   
   .actualmenucard p{
@@ -163,7 +164,7 @@
       text-shadow: black 1px 1px 1px;
       font-family: Crayon;
       font-size: 26px;
-      color: #8cd6e8;
+      color: white;
   }
   
   .actualmenucard img{
@@ -180,7 +181,7 @@
       font-family: Calling-Heart;
       animation: bounce 0.5s;
       text-shadow: black 1px 1px 1px;
-      color: #8cd6e8;
+      color: white;
   }
  
   .closebtn{
