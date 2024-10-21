@@ -192,6 +192,7 @@ Blueish? - #8cd6e8
 .collectible p{font-family: Crayon; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
 
 .collectible img{
+  margin: auto;
     width: 50%;
 }
 
