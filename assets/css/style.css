@@ -154,12 +154,13 @@ body{
 }
 
 .navheader{
-    button{display: none;}
-    img{width: 100px;}
     margin-left: 15px;
     background-color: #38394200;
     z-index: 100;
 }
+
+.navheader button{display: none;}
+.navheader img{width: 100px;}
 
 .desktopnav{
 	right: 0;
