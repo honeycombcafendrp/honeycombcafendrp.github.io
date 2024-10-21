@@ -1,0 +1,237 @@
+/*
+Yellow - #fad725
+Darker Pink - #efacb5
+Blueish? - #8cd6e8
+*/
+
+
+/*HOME*/
+.bodyblur{
+    backdrop-filter: blur(2px);
+  }
+  
+  .intro{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: block;
+  }
+  
+  .intrologo{
+    width: 500px;
+    filter: drop-shadow(black 1px 1px 2px);
+  }
+  
+  .introtext{
+    color: white;
+  }
+  
+  .intro h1{
+    font-family: Calling-Heart;
+    text-shadow: black 1px 1px 1px;
+    font-size: 84px;
+    color: white;
+  }
+  
+  .paragraphs{
+    margin-bottom: 200px;
+  }
+  
+  .hexagon {
+    margin: auto;
+    height: 250px; /* adjust to control the size  */
+    aspect-ratio: 1/cos(30deg);
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+    background: url(/assets/img/hex1.png);
+    background-size: cover;
+    background-position: center;
+    margin: 2%;
+    float: left;
+    shape-outside: circle(50%);
+  }
+  
+  .hextext{
+    max-width: 90%;
+    text-align: center;
+    filter: drop-shadow(black 0px 0px 5px);
+  }
+  
+  .hextext p{font-family: Crayon; font-size: 32px;color: white;}
+  
+  .andright{
+    float: right;
+    background: url(/assets/img/oofie2.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .collectible{
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+    backdrop-filter: blur(2px);
+  }
+  
+  .collectible h1{font-family: Calling-Heart; color: white; margin: 0px; font-size: 84px; filter: drop-shadow(black 0px 0px 5px)}
+  .collectible p{font-family: Crayon; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
+  
+  .collectible img{
+    width: 400px;
+  }
+  
+  #small{
+    font-size: 25px;
+  }
+  
+  .hiring{
+    margin: auto;
+  }
+  
+  .hiring h1{font-family: Calling-Heart; color: white; margin: 0px; font-size: 84px; filter: drop-shadow(black 0px 0px 5px)}
+  
+  .hiringhex{
+    background: url(/assets/img/alyssabees.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .hiring{
+    margin: auto;
+    text-align: center;
+  }
+  
+  .contactbutton{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    font-family: Calling-Heart;
+    background: none;
+    border: solid #8cd6e8 2px;
+    border-radius: 25px;
+    font-size: 36px !important;
+    color: white;
+    text-shadow: black 1px 1px 3px;
+    transition: ease-in-out 0.75s;
+  }
+  
+  .contactbutton:hover{
+    background-color: #8cd6e8;
+    cursor: url(/assets/img/cursor/hover.png), auto;
+  }
+
+
+  @media (max-width: 800px){
+
+    /*HOME*/
+.bodyblur{
+    backdrop-filter: blur(2px);
+}
+
+.intro{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.intrologo{
+    width: 275px;
+    filter: drop-shadow(black 1px 1px 2px);
+}
+
+#cafe{
+    margin: none;
+    font-family: Crayon;
+}
+
+.introtext{
+    color: white;
+}
+
+.introtext h1{
+  font-family: Calling-Heart;
+  text-shadow: black 1px 1px 1px;
+  font-size: 60px;
+  color: white;
+}
+
+.hexagon {
+    margin: auto;
+    height: 150px; /* adjust to control the size  */
+    aspect-ratio: 1/cos(30deg);
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+    background: url(/assets/img/hex1.png);
+    background-size: cover;
+    background-position: center;
+    margin: 2%;
+    float: left;
+    shape-outside: circle(50%);
+}
+
+.hextext{
+    max-width: 90%;
+    text-align: center;
+    filter: drop-shadow(black 0px 0px 5px);
+}
+
+.hextext p{font-family: Crayon; font-size: 22px;color: white;}
+
+.andright{
+    float: right;
+    background: url(/assets/img/oofie2.png);
+    background-size: cover;
+    background-position: center;
+}
+.collectible{
+    margin: auto;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.collectible h1{color: white; margin: 0px;}
+.collectible p{font-family: Crayon; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
+
+.collectible img{
+    width: 50%;
+}
+
+#small{
+    font-size: 25px;
+}
+
+.hiring{
+    margin: auto;
+    h1{color: white;}
+}
+
+.hiringhex{
+    background: url(/assets/img/alyssabees.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.hiring{
+    margin: auto;
+    text-align: center;
+}
+
+.contactbutton{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    font-family: Calling-Heart;
+    background: none;
+    border: solid #8cd6e8 2px;
+    border-radius: 25px;
+    font-size: 36px !important;
+    color: white;
+    text-shadow: black 1px 1px 3px;
+    transition: ease-in-out 0.75s;
+}
+
+.contactbutton:hover{
+    background-color: #8cd6e8;
+    cursor: url(/assets/img/cursor/hover.png), auto;
+}
+  }
