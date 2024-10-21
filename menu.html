@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="assets/css/navigation.css">
-    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script defer src="assets/scripts/app.js"></script>
 </head>
 
@@ -25,74 +24,77 @@
       </div>
 </div>
 
-    <div class="headergap"></div>
-    <!--NAVIGATION-->
-    <button id="burger" class="open-main-nav">
-        <span class="burger"></span>
-        <span class="burger-text"><p>Menu</p></span>
-    </button>
-    <nav class="main-nav" id="main-nav">
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="menu.html">Menu</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
+<div class="desktopnav">
+  <div class="navheader">
+      <img class="nav-logo" src="/assets/img/LOGO.png" alt="">
+  <button id="burger" class="open-main-nav">
+      <span class="burger"></span>
+  </button>
+  </div>
+  <nav class="main-nav" id="main-nav">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a id="activepage"  href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+      </ul>
+  </nav>
+</div>
+<div class="headergap"></div>
 <!--Snacks-->
           <!--HONEYBUN-->
             <div class="actualmenucard honeybun toggle-target" data-hideme="hidden">
-              <img class="menuhive" src="/assets/img/hive.png" alt="">
+              <div class="cardinside">
               <button type="button" class="toggle-button closebtn" data-target=".honeybun">X</button>
               <h1>Homemade Honeybun</h1>
               <img src="/assets/img/menu/snacks/honeybun.webp" alt="" class="menucardimg">
               <p>A sweet homemade bun, filled and coated in Honeycomb Cafe honey</p>
             </div>
+            </div>
           <!--Honey Lemon Cakes-->
           <div class="actualmenucard lemoncakes toggle-target" data-hideme="hidden">
-            <img class="menuhive" src="/assets/img/hive.png" alt="">
+            <div class="cardinside">
             <button type="button" class="toggle-button closebtn" data-target=".lemoncakes">X</button>
             <h1>Honey Lemon Cakes</h1>
             <img src="assets/img/menu/snacks/honeylemon.webp" alt="" class="menucardimg">
             <p>A delicious, lemon pull-apart cake perfect for sharing!</p>
           </div>
+        </div>
           <!--Honey Candied Bacon-->
           <div class="actualmenucard bacon toggle-target" data-hideme="hidden">
-            <img class="menuhive" src="/assets/img/hive.png" alt="">
+            <div class="cardinside">
             <button type="button" class="toggle-button closebtn" data-target=".bacon">X</button>
             <h1>Honey Candied Bacon</h1>
             <img src="assets/img/menu/snacks/honeybacon.webp" alt="" class="menucardimg">
             <p>Looking for something sweet but salty? This treat is for you!</p>
           </div>
+        </div>
           <!--Honey Carrot Soup-->
           <div class="actualmenucard soup toggle-target" data-hideme="hidden">
-            <img class="menuhive" src="/assets/img/hive.png" alt="">
+            <div class="cardinside">
             <button type="button" class="toggle-button closebtn" data-target=".soup">X</button>
             <h1>Honey Carrot Soup</h1>
             <img src="assets/img/menu/snacks/honeysoup.webp" alt="" class="menucardimg">
             <p>Rich and creamy carrot soup with savory flavors, sweetened with Honeycomb Cafe honey</p>
           </div>
+        </div>
         <!--Honey Ginger Cheesecake-->
         <div class="actualmenucard cheesecake toggle-target" data-hideme="hidden">
-          <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".cheesecake">X</button>
           <h1>Honey Ginger Cheesecake</h1>
           <img src="assets/img/menu/snacks/honeygingercheesecake.webp" alt="" class="menucardimg">
           <p>A slice of cheesecake with ginger snap crust and honey drizzle, topped with a piece of honey toffee</p>
-        </div>          
+        </div>    
+      </div>       
         <!--Honey Drop (Parfait)-->
         <div class="actualmenucard parfait toggle-target" data-hideme="hidden">
-          <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".parfait">X</button>
           <h1>Honey Drop (Parfait)</h1>
           <img src="assets/img/menu/snacks/honeydrop.webp" alt="" class="menucardimg">
           <p>A three-layered parfait, local honey topped with yougurt and granola, garnished with a shaved apple</p>
         </div>  
+      </div> 
 
           <!--SNACKS-->
     <div class="menutext">
@@ -141,36 +143,40 @@
 <!--Entrees-->
           <!--Honey Chicken Sandwich-->
           <div class="actualmenucard honeychicken toggle-target" data-hideme="hidden">
-            <img class="menuhive" src="/assets/img/hive.png" alt="">
+            <div class="cardinside">
             <button type="button" class="toggle-button closebtn" data-target=".honeychicken">X</button>
             <h1>Honey Chicken Sandwich</h1>
             <img src="/assets/img/menu/entrees/honeychicken.webp" alt="" class="menucardimg">
             <p>Spicy hot honey and fried chicken, topped with fried pickles and salad. Served on a fresh baked bun</p>
           </div>
+        </div> 
         <!--BBQ Pulled Pork Sandwichs-->
         <div class="actualmenucard honeypork toggle-target" data-hideme="hidden">
-          <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".honeypork">X</button>
           <h1>Pulled Pork Sandwich</h1>
           <img src="/assets/img/menu/entrees/honeypork.webp" alt="" class="menucardimg">
           <p>Pulled pork slathered in a sweet and savory homemade honey bqq sauce, and topped with slaw</p>
         </div>
+      </div> 
         <!--Mustard Chicken Salad-->
         <div class="actualmenucard honeymustard toggle-target" data-hideme="hidden">
-          <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".honeymustard">X</button>
           <h1>Mustard Chicken Salad</h1>
           <img src="assets/img/menu/entrees/honeymustard.webp" alt="" class="menucardimg">
           <p>A gree salad with grilled chicken, vegetables, and Honeycomb's signature honey mustard dressing.</p>
         </div>
+      </div> 
       <!--Balsamic Summer Salad-->
       <div class="actualmenucard honeysummer toggle-target" data-hideme="hidden">
-        <img class="menuhive" src="/assets/img/hive.png" alt="">
+        <div class="cardinside">
         <button type="button" class="toggle-button closebtn" data-target=".honeysummer">X</button>
-        <h1>Honey Ginger Cheesecake</h1>
+        <h1>Balsamic Summer Salad</h1>
         <img src="assets/img/menu/entrees/honeysummersalad.webp" alt="" class="menucardimg">
         <p>Leafy greens, rich berries, and toasted pecans dressed in Honeycomb's honey balsamic vinaigrette</p>
-      </div>               
+      </div>      
+    </div>          
           <!--ENTREES-->
       <div class="menutext">
         <h1>Entrees</h1>
@@ -202,36 +208,40 @@
         <!--HOTDRINKS-->
           <!--Honey Cinnamon Latte-->
           <div class="actualmenucard latte toggle-target" data-hideme="hidden">
-            <img class="menuhive" src="/assets/img/hive.png" alt="">
+            <div class="cardinside">
             <button type="button" class="toggle-button closebtn" data-target=".latte">X</button>
             <h1>Honey Cinnamon Latte</h1>
             <img src="/assets/img/menu/hotdrink/honeylatte.webp" alt="" class="menucardimg">
             <p>A slightly spiced and comfroting latte</p>
           </div>
+        </div>   
         <!--Honey Lavender Tea-->
         <div class="actualmenucard lavander toggle-target" data-hideme="hidden">
-          <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".lavander">X</button>
           <h1>Honey Lavender Tea</h1>
           <img src="assets/img/menu/hotdrink/honeylavandder.webp" alt="" class="menucardimg">
           <p>A calming lavender tea, sweetened with honey. Perfect for reading your favourite novel</p>
         </div>
+      </div>   
         <!--Honey Chai Latte-->
         <div class="actualmenucard chai toggle-target" data-hideme="hidden">
-          <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".chai">X</button>
-          <h1>Honey Chai Latte</h1>
+          <h1>Honey Chai <br class="mobilebr"> Latte</h1>
           <img src="assets/img/menu/hotdrink/honeychailatte.webp" alt="" class="menucardimg">
           <p>Masala chai blended with honey syrup and milk, topped with whipped cream, spices and honey drizzle</p>
         </div>
+      </div>   
         <!--Milk and Honey-->
         <div class="actualmenucard milkhoney toggle-target" data-hideme="hidden">
-          <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".milkhoney">X</button>
-          <h1>Milk and Honey</h1>
+          <h1>Milk and <br class="mobilebr"> Honey</h1>
           <img src="assets/img/menu/hotdrink/milkhoney.webp" alt="" class="menucardimg">
           <p>SAPD Collaboration <br> Warm milk and locally sourced honey with hints of vanilla and cinnamon</p>
-        </div>               
+        </div>      
+      </div>            
           <!--HOTDRINKS-->
       <div class="menutext">
         <h1>Hot Drinks</h1>
@@ -262,28 +272,31 @@
                 <!--COLD DRINKS-->
           <!--Honey Vanilla Iced Tea-->
           <div class="actualmenucard icedtea toggle-target" data-hideme="hidden">
-            <img class="menuhive" src="/assets/img/hive.png" alt="">
+            <div class="cardinside">
             <button type="button" class="toggle-button closebtn" data-target=".icedtea">X</button>
             <h1>Honey Vanilla Iced Tea</h1>
             <img src="/assets/img/menu/colddrinks/honeyicetea.webp" alt="" class="menucardimg">
             <p>A refreshing iced tea made with locally sourced orange blossom honey</p>
           </div>
+        </div>    
         <!--Coffee Frappuccino-->
         <div class="actualmenucard frap toggle-target" data-hideme="hidden">
-          <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".frap">X</button>
           <h1>Coffee Frappuccino</h1>
           <img src="assets/img/menu/colddrinks/honeyfrap.webp" alt="" class="menucardimg">
           <p>Espresso and milk blended together to make a cold refreshing drink, drizzled with honey</p>
         </div>
+      </div>    
         <!--Rocket Fizz Soda-->
         <div class="actualmenucard rocket toggle-target" data-hideme="hidden">
-              <img class="menuhive" src="/assets/img/hive.png" alt="">
+          <div class="cardinside">
           <button type="button" class="toggle-button closebtn" data-target=".rocket">X</button>
           <h1>Rocket Fizz Soda</h1>
           <img src="assets/img/menu/colddrinks/honeyrocketfizz.webp" alt="" class="menucardimg">
           <p> Moonies Aracade Collaboration <br> Hibiscus and honey layered with club soda, cream and ice. Fizzy and fun</p>
-        </div>              
+        </div>        
+      </div>          
           <!--COLD DRINKS-->
       <div class="menutext">
         <h1>Cold Drinks</h1>

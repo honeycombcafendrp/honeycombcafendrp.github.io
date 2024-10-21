@@ -4,32 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="assets/css/navigation.css">
-    <link rel="stylesheet" href="assets/css/contactus.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script defer src="assets/scripts/app.js"></script>
     <script defer src="assets/scripts/webhook.js"></script>
 </head>
 
 <body>
+    <div class="desktopnav">
+        <div class="navheader">
+            <img class="nav-logo" src="/assets/img/LOGO.png" alt="">
+        <button id="burger" class="open-main-nav">
+            <span class="burger"></span>
+        </button>
+        </div>
+        <nav class="main-nav" id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a id="activepage" href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="headergap"></div>
-    <!--NAVIGATION-->
-    <button id="burger" class="open-main-nav">
-        <span class="burger"></span>
-        <span class="burger-text"><p>Menu</p></span>
-    </button>
-    <nav class="main-nav" id="main-nav">
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="menu.html">Menu</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
 
     <div class="contactform">
         <form onsubmit="sendform(event)">
