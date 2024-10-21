@@ -150,7 +150,7 @@ body{
 }
 
 #activepage{
-    color: #8cd6e8;
+    color: #fad725;
 }
 
 .navheader{
@@ -733,7 +733,7 @@ top: 300px;
 	width: 28px;
 	height: 4px;
 	margin: 0 auto;
-	background: #cfcfcf;
+	background: #fad725;
 	transition: all .275s;
 }
 
@@ -749,7 +749,7 @@ top: 300px;
 	content: '';
 	display: block;
 	height: 100%;
-	background: #cfcfcf;
+	background: #fad725;
 	transition: all .275s;
 }
 
