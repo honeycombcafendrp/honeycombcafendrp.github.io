@@ -52,9 +52,10 @@ h1{
 .hextext{
     max-width: 90%;
     text-align: center;
-    p{font-family: Crayon; font-size: 22px;color: white;}
     filter: drop-shadow(black 0px 0px 5px);
 }
+
+.hextext p{font-family: Crayon; font-size: 22px;color: white;}
 
 .andright{
     float: right;
@@ -65,10 +66,11 @@ h1{
 .collectible{
     margin: auto;
     text-align: center;
-    h1{color: white; margin: 0px;}
-    p{font-family: Crayon; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
     backdrop-filter: blur(5px);
 }
+
+.collectible h1{color: white; margin: 0px;}
+.collectible p{font-family: Crayon; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
 
 .collectible img{
     width: 50%;

@@ -137,7 +137,7 @@
       padding: 0px;
       position: fixed;
       right: 1%;
-      top: 33%;
+      top: 18%;
       text-align: center;
       width:95%;
       z-index: 999999;
@@ -150,7 +150,7 @@
     padding-bottom: 50%;
     position: fixed;
     right: -1% !important;
-    top: 7% !important; 
+    top: 0 !important; 
     text-align: center !important;
     z-index: -999999;
     transform: scale(1.8) !important;
@@ -172,7 +172,7 @@
       width: 100%;
       position: fixed;
       z-index: -9999;
-      top: 33%;
+      top: 20%;
       right: 0;
   }
   
