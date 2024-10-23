@@ -120,6 +120,11 @@ Blueish? - #8cd6e8
 
   @media (max-width: 800px){
 
+    body{
+      margin-left: 2%;
+      margin-right: 4%;
+    }
+
     .headergap{
       margin-top: 55px;
     }

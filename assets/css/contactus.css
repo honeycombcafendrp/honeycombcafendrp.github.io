@@ -48,3 +48,11 @@
     background-color: #8cd6e8;
     cursor: url(/assets/img/cursor/hover.png), auto;
 }
+
+@media (max-width: 800px){
+
+    body{
+      margin-left: 2%;
+      margin-right: 4%;
+    }
+}

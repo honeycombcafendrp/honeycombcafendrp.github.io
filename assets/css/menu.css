@@ -248,6 +248,10 @@ cursor: url(/assets/img/cursor/hover.png), auto;
 
 
 @media (max-width: 800px){
+  body{
+	  margin-left: 2%;
+	  margin-right: 4%;
+	}
   /*MENU*/
 .menutext h1{
   font-family: Calling-Heart;
