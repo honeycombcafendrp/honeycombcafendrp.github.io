@@ -1,5 +1,5 @@
 .menutext h1{
-  font-family: Calling-Heart;
+	font-family: 'DancingScript-Variable';
   text-shadow: black 1px 1px 1px;
   font-size: 60px;
   color: white;
@@ -145,7 +145,7 @@
 
 .actualmenucard p{
     text-shadow: black 1px 1px 1px;
-    font-family: Crayon;
+    font-family: 'Kalam-Variable';
     font-size: 46px;
     color: white;
     margin-top: 305px;
@@ -163,7 +163,7 @@
 
 .actualmenucard h1{
     margin: 1px !important;
-    font-family: Calling-Heart;
+    font-family: 'DancingScript-Variable';
     animation: bounce 0.5s;
     text-shadow: black 1px 1px 1px;
     color: white;
@@ -245,7 +245,7 @@ cursor: url(/assets/img/cursor/hover.png), auto;
 	}
   /*MENU*/
 .menutext h1{
-  font-family: Calling-Heart;
+	font-family: 'DancingScript-Variable';
   text-shadow: black 1px 1px 1px;
   font-size: 60px;
   color: white;
