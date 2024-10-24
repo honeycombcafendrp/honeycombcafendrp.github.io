@@ -7,13 +7,13 @@
 
 .form-label{
     font-size: 30px;
-	font-family: 'DancingScript-Variable';
+    font-family: Calling-Heart;
     text-shadow: black 1px 1px 1px;
     color: white;
 }
 
 .form-control{
-    font-family: 'Kalam-Variable';
+    font-family: Crayon;
     width: 90%;
     background: none;
     border: solid #8cd6e8 2px;
@@ -34,7 +34,7 @@
 .btn-primary{
     margin-top: 5%;
     width: 50%;
-	font-family: 'DancingScript-Variable';
+    font-family: Calling-Heart;
     background: none;
     border: solid #8cd6e8 2px;
     border-radius: 25px;

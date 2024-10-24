@@ -23,7 +23,7 @@ Blueish? - #8cd6e8
   }
   
   .intro h1{
-    font-family: 'DancingScript-Variable';
+    font-family: Calling-Heart;
     text-shadow: black 1px 1px 1px;
     font-size: 84px;
     color: white;
@@ -50,7 +50,7 @@ Blueish? - #8cd6e8
     filter: drop-shadow(black 0px 0px 5px);
   }
   
-  .hextext p{	font-family: 'Kalam-Variable';; font-size: 32px;color: white;}
+  .hextext p{font-family: Crayon; font-size: 32px;color: white;}
   
   .andright{
     float: right;
@@ -64,8 +64,8 @@ Blueish? - #8cd6e8
     text-align: center;
   }
   
-  .collectible h1{	font-family: 'DancingScript-Variable'; color: white; margin: 0px; font-size: 84px; filter: drop-shadow(black 0px 0px 5px)}
-  .collectible p{	font-family: 'Kalam-Variable';; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
+  .collectible h1{font-family: Calling-Heart; color: white; margin: 0px; font-size: 84px; filter: drop-shadow(black 0px 0px 5px)}
+  .collectible p{font-family: Crayon; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
   
   .collectible img{
     width: 400px;
@@ -79,7 +79,7 @@ Blueish? - #8cd6e8
     margin: auto;
   }
   
-  .hiring h1{	font-family: 'DancingScript-Variable'; color: white; margin: 0px; font-size: 84px; filter: drop-shadow(black 0px 0px 5px)}
+  .hiring h1{font-family: Calling-Heart; color: white; margin: 0px; font-size: 84px; filter: drop-shadow(black 0px 0px 5px)}
   
   .hiringhex{
     background-size: cover;
@@ -96,7 +96,7 @@ Blueish? - #8cd6e8
     text-align: center;
     margin: auto;
     width: 90%;
-    font-family: 'DancingScript-Variable';
+    font-family: Calling-Heart;
     background: none;
     border: solid #8cd6e8 2px;
     border-radius: 25px;
@@ -134,7 +134,7 @@ Blueish? - #8cd6e8
 
 #cafe{
     margin: none;
-    font-family: 'Kalam-Variable';
+    font-family: Crayon;
 }
 
 .introtext{
@@ -142,7 +142,7 @@ Blueish? - #8cd6e8
 }
 
 .introtext h1{
-	font-family: 'DancingScript-Variable';
+  font-family: Calling-Heart;
   text-shadow: black 1px 1px 1px;
   font-size: 60px;
   color: white;
@@ -152,7 +152,7 @@ Blueish? - #8cd6e8
   height: 150px;
 }
 
-.hextext p{	font-family: 'Kalam-Variable';; font-size: 22px;color: white;}
+.hextext p{font-family: Crayon; font-size: 22px;color: white;}
 
 
 .collectible{
@@ -162,7 +162,7 @@ Blueish? - #8cd6e8
 }
 
 .collectible h1{color: white; margin: 0px;}
-.collectible p{	font-family: 'Kalam-Variable'; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
+.collectible p{font-family: Crayon; color: white; font-size: 50px; margin: 0px; filter: drop-shadow(black 0px 0px 5px);}
 
 .collectible img{
   margin: auto;
@@ -194,7 +194,7 @@ Blueish? - #8cd6e8
     text-align: center;
     margin: auto;
     width: 90%;
-    font-family: 'DancingScript-Variable';
+    font-family: Calling-Heart;
     background: none;
     border: solid #8cd6e8 2px;
     border-radius: 25px;
