@@ -208,11 +208,11 @@ body{
 	}
 	
 	.navheader{
+		right: 0;
 		left: 0;
-		button {display: block;}
 		margin: auto;
 		width: 100%;
-		  position: fixed;
+		position: fixed;
 		z-index: 999999;
 		display: flex;
 		justify-content: space-between;   
