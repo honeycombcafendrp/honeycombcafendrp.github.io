@@ -108,7 +108,7 @@ Blueish? - #8cd6e8
   
   .contactbutton:hover{
     background-color: #8cd6e8;
-    cursor: url(/assets/img/cursor/hover.png), auto;
+		cursor: pointer;
   }
 
 
@@ -158,7 +158,6 @@ Blueish? - #8cd6e8
 .collectible{
     margin: auto;
     text-align: center;
-    backdrop-filter: blur(5px);
 }
 
 .collectible h1{color: white; margin: 0px;}
@@ -206,6 +205,6 @@ Blueish? - #8cd6e8
 
 .contactbutton:hover{
     background-color: #8cd6e8;
-    cursor: url(/assets/img/cursor/hover.png), auto;
+		cursor: pointer;
 }
   }

@@ -46,7 +46,7 @@
 
 .btn-primary:hover{
     background-color: #8cd6e8;
-    cursor: url(/assets/img/cursor/hover.png), auto;
+    cursor: pointer;
 }
 
 @media (max-width: 800px){

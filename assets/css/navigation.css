@@ -3,10 +3,6 @@
 	overflow: hidden;
   }
 
-  html{
-	cursor: url(/assets/img/cursor/main.png), auto;
-  }
-
   @font-face {
     font-family: Crayon;
     src: url("/assets/fonts/Crayon.otf")  format("opentype");
@@ -22,6 +18,7 @@ body{
     margin: auto;
 	background-color: #fad725;
 	background-image: url(/assets/img/bg3.webp);
+	text-align: center;
   
 }
 
@@ -196,7 +193,6 @@ body{
 	body{
 		margin-left: 2%;
 		margin-right: 4%;
-		background-image: none;
 	}
 
 	.headergap{
@@ -219,7 +215,7 @@ body{
 	}
 	
 	.navheader img{
-	  width: 20%  !important; 
+	  width: 75px ; 
 	  margin-top: auto; 
 	  margin-bottom: auto;
 	  margin-left: 25px;
