@@ -193,6 +193,12 @@ body{
 @media (max-width: 800px){
 	/*NAVIGATION*/   
 
+	body{
+		margin-left: 2%;
+		margin-right: 4%;
+		background-image: none;
+	}
+
 	.headergap{
 		margin-top: 55px;
 	}
