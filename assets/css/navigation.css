@@ -217,6 +217,10 @@ body{
 		display: flex;
 		justify-content: space-between;   
 	}
+
+	.navheader button{
+		display: block;
+	}
 	
 	.navheader img{
 	  width: 20%  !important; 
