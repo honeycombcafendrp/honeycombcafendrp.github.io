@@ -126,9 +126,6 @@ Blueish? - #8cd6e8
     }
 
     /*HOME*/
-.bodyblur{
-    backdrop-filter: blur(2px);
-}
 
 .intro{
     text-align: center;
