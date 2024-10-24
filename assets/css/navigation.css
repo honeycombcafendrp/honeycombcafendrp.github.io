@@ -17,9 +17,135 @@
     src: url("/assets/fonts/Calling\ Heart.ttf")  format("truetype");
 }
 
+html{
+	--s: 37px; /* control the size*/
+	--c1: #fad725;
+	--c2: #ffff80;
+	
+	--c:#0000,var(--c1) .5deg 119.5deg,#0000 120deg;
+	--g1:conic-gradient(from  60deg at 56.25% calc(425%/6),var(--c));
+	--g2:conic-gradient(from 180deg at 43.75% calc(425%/6),var(--c));
+	--g3:conic-gradient(from -60deg at 50%   calc(175%/12),var(--c));
+	background:
+	  var(--g1),var(--g1) var(--s) calc(1.73*var(--s)),
+	  var(--g2),var(--g2) var(--s) calc(1.73*var(--s)),
+	  var(--g3) var(--s) 0,var(--g3) 0 calc(1.73*var(--s)) 
+	  var(--c2);
+	background-size: calc(2*var(--s)) calc(3.46*var(--s));
+}
+
 body{
     margin: auto;
 }
+
+/*Bees*/
+
+.beesbg{
+	position: fixed;
+	z-index: -99999;
+}
+
+#bug{
+	position: fixed;
+	left: 190px;
+	top: 20px;
+}
+#bug2{
+	position: fixed;
+	left: 190px;
+	top: 520px;
+}
+#bug3{
+	position: fixed;
+	left: 80px;
+	top: 310px;
+	transform:rotate(20deg) scaleX(-1) !important;
+}
+
+.bee {
+	width:50px;
+	height:50px;
+	background:black;
+	border-radius:50% 75% 0% 75%;
+	background:linear-gradient(-50deg, black 15px, goldenrod 15px, goldenrod 25px, black 25px, black 40px, goldenrod 40px, goldenrod 50px, black 50px);
+	box-shadow:inset 0 0 0 2px black, inset 5px -5px 5px 5px rgba(139,69,19,.5), -10px 20px 35px saddlebrown;  
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:rotate(-20deg);
+  }
+  .bee:before {
+	content:'';
+	width:35px;
+	height:35px;
+	border-radius:75% 50% 75% 25%;
+	background:radial-gradient(circle at 10px 15px, black 3px, goldenrod 3px, goldenrod 20px, black);
+	box-shadow:0 0 0 2px black; 
+	position:absolute;
+	left:-22px;
+	top:-15px;
+	transform:rotate(30deg);
+  }
+  .bee:after {
+	content:'';
+	width:30px;
+	height:30px;
+	position:absolute;
+	left:-33px;
+	top:-28px;
+	border-radius:50%;
+	z-index:-1;
+	box-shadow:inset -2px 1px 0 black, 1px -2px 0 var(--bg-color), 3px -3px 0 black;
+	animation:hair .33s linear infinite;
+  }
+  @keyframes hair {
+	50% { transform:translateY(2px); }
+  }
+  
+  .flip {
+	/*   transition:.25s; */
+	transform:rotate(20deg) scaleX(-1) !important;
+  }
+  
+  .bee .wings {
+	width:50px;
+	height:50px;
+	background:linear-gradient(to bottom left, black, transparent 50px);
+	border-radius:50% 50% 50% 25%;
+	position:absolute;
+	left:25px;
+	top:-25px;
+	opacity:.5;
+	transform-origin:left bottom;
+	perspective:200px;
+	animation:buzz .33s linear infinite;
+  }
+  @keyframes buzz {
+	50% { transform: scale(.9) rotateY(90deg) rotateX(90deg); }
+  }
+  
+  .bee .limbs {
+	width:10px;
+	height:10px;
+	border-right:2px solid black;
+	border-left:2px solid black;
+	position:absolute;
+	top:100%;
+	left:25px;
+  }
+  .bee .limbs:before {
+	content:'';
+	width:100%;
+	height:100%;
+	border-right:2px solid black;
+	border-left:2px solid black;
+	position:absolute;
+	top:-20px;
+	left:-33px;
+	transform:rotate(60deg);
+  }
+
+/*end beys*/
 
 /*NAVIGATION*/
 
@@ -47,6 +173,7 @@ body{
     display: flex;
     justify-content: space-between;
 	font-family: Calling-Heart;
+
 }
 
 .main-nav{

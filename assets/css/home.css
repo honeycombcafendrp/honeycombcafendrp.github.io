@@ -5,11 +5,7 @@ Blueish? - #8cd6e8
 */
 
 
-/*HOME*/
-.bodyblur{
-    backdrop-filter: blur(2px);
-  }
-  
+/*HOME*/ 
   .intro{
     text-align: center;
     margin: auto;
@@ -42,13 +38,12 @@ Blueish? - #8cd6e8
     height: 250px; /* adjust to control the size  */
     aspect-ratio: 1/cos(30deg);
     clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
-    background-size: cover;
-    background-position: center;
-    margin: 2%;
+    background: #3B8686;
     float: left;
     shape-outside: circle(50%);
+    margin: 2%;
   }
-  
+
   .hextext{
     max-width: 90%;
     text-align: center;
@@ -59,8 +54,8 @@ Blueish? - #8cd6e8
   
   .andright{
     float: right;
-    background-size: cover;
-    background-position: center;
+    shape-outside: circle(50%);
+    margin: 2%;
   }
   .collectible{
     width: 100%;
@@ -155,32 +150,12 @@ Blueish? - #8cd6e8
 }
 
 .hexagon {
-    margin: auto;
-    height: 150px; /* adjust to control the size  */
-    aspect-ratio: 1/cos(30deg);
-    clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
-    background: url(/assets/img/hex1.png);
-    background-size: cover;
-    background-position: center;
-    margin: 2%;
-    float: left;
-    shape-outside: circle(50%);
-}
-
-.hextext{
-    max-width: 90%;
-    text-align: center;
-    filter: drop-shadow(black 0px 0px 5px);
+  height: 150px;
 }
 
 .hextext p{font-family: Crayon; font-size: 22px;color: white;}
 
-.andright{
-    float: right;
-    background: url(/assets/img/oofie2.png);
-    background-size: cover;
-    background-position: center;
-}
+
 .collectible{
     margin: auto;
     text-align: center;
