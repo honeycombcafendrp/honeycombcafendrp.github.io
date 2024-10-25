@@ -49,7 +49,6 @@
   color: #000;
   overflow: hidden;
   transform: skewY(-30deg) rotate(60deg);   
-  backdrop-filter: blur(2px);
 }
 
 .hexIn:hover{
@@ -68,6 +67,7 @@
   margin: 0 auto;
   background-color: #0000007a;
   transition: ease;
+  backdrop-filter: blur(2px);
 }
 
 .hex img:hover{
